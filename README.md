@@ -1,6 +1,10 @@
 # hudsonrock-search-extractor
 hudsonrock results extractor that connects to the API and displays the results on a terminal.
 
+## What is hudson rock?
+
+Hudson Rock is a cybercrime intelligence company founded in 2020 and based in Tel Aviv, Israel. The company specializes in providing solutions that help organizations mitigate risks associated with compromised credentials and cyber threats. Its products are designed for both threat intelligence professionals and cybersecurity sales teams.
+
 # How to use
 
 Clone this repo
