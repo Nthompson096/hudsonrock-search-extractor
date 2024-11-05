@@ -19,8 +19,14 @@ Results should display in a terminal without you having to create an account.
 
       python -m venv venv
 
+<br/>
+
       source venv/bin/activate
 
+<br/>
+      
       pip install -r requirements.txt
+
+<br/>
 
       python api.py
