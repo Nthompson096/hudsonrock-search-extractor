@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hudson Rock Search</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        form { margin-bottom: 20px; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Hudson Rock Search</h1>
+    <form method="POST">
+        <select name="query_type" required>
+            <option value="email">Email</option>
+            <option value="username">Username</option>
+        </select>
+        <input type="text" name="query" required placeholder="Enter email or username">
+        <button type="submit">Search</button>
+    </form>
+    {% if result %}
+        <h2>Results:</h2>
+        <pre>{{ result | tojson(indent=2) }}</pre>
+    {% endif %}
+</body>
+</html>
