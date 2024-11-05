@@ -14,3 +14,13 @@ Clone this repo
       usage: main.py [-h] (-email EMAIL | -username USERNAME)
 
 Results should display in a terminal without you having to create an account.
+
+# To use the HTML page:
+
+      python -m venv venv
+
+      source venv/bin/activate
+
+      pip install -r requirements.txt
+
+      python api.py
